@@ -69,7 +69,7 @@ review more info on Nx.
 If you haven't used Nx before, I highly recommend it, especially for any new
 frontend codebases. You can see here, they call it a "Smart, Extensible Build
 Framework." Once you use Nx, it's really hard to work in a codebase without it.
-It's one of those things that you don't realie how much you needed until you
+It's one of those things that you don't realize how much you needed until you
 have actually used it.
 
 The most powerful feature of Nx is its inherent support for Monorepos. It makes
@@ -81,6 +81,10 @@ execution, computational caching, powerful code generators, workspace
 visualizations, automatic upgrade migrations, and more! If you haven't heard of
 it, definitely check out nx.dev to learn more about how it can improve your
 developer experience.
+
+Okay, it looks like the command is going extra slow today. What am I saying? Of course it is, this is a live demo, what do you expect? Well, while we're waiting, I'll let you know that Nx has some amazing educational resources as well. There are free Nx courses they provide, as well as amazing documentation and tutorials to help you learn. For example, here is the Intro to Nx, which is a great starting point for anyone new.
+
+Hey, looks like it finally finished!
 
 ```sh
 npx nx generate @nrwl/angular:app locations --mfe --mfeType remote --port 4201 --host shell --style scss --routing true
@@ -256,8 +260,13 @@ Now, let's go back to the home page because I want to show you a few more
 things. You'll see here that we are loading 3 `remoteEntry.js` files, one for
 each micro frontend. Shouldn't we be lazy loading these? Well, not exactly.
 Loading these upfront is important in order to facilitate shared dependency
-negotation. Witout this, we wouldn't be able to share dependencies and bundle
+negotation. Without this, we wouldn't be able to share dependencies and bundle
 sizes would grow out of control.
+
+This could be a concern if you want to have a micro frontend architecture that
+is composed of hundreds of smaller fragments. If that is the case, I'd encourage
+you to consider the web component approach which is much more condusive to that
+type of use-case.
 
 Fortunately, this file will remain pretty small because the rest of the code for
 each micro frontend is lazily loaded. When I visit each micro frontend, it loads
@@ -271,7 +280,7 @@ as well.
 - [http://localhost:4203/](http://localhost:4203/)
 
 This can be helpful if you want to iterate quickly without having to load the
-entire shell. However, I highly recommend just working fromw ithin the shell to
+entire shell. However, I highly recommend just working from within the shell to
 ensure a solid integration.
 
 While this has been a super simple example, you can use a micro frontend

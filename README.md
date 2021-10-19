@@ -2,7 +2,6 @@
 
 Micro Frontend: The future is here and easier than you think.
 
-
 ## Links
 
 - [Slides](./slides.pdf)

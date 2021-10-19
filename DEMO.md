@@ -12,7 +12,14 @@ Grill. We're going to utilize a micro frontend architecture using Module
 Federation with Angular and Nx. If you want to follow along, please be aware
 that I am using the latest version of Node LTS, 14.18.1, as well as NPM 7.24.2.
 
+| Software    | Version |
+| ----------- | ------- |
+| Node        | 14.18.1 |
+| NPM         | 7.24.2  |
+
 ## Architecture
+
+![NG Grill Architecture](./architecture.png)
 
 Here is a high level architecture of what we're about to build. You can see
 we've got our hungry user here who is probably looking to order a Cheeseburger.

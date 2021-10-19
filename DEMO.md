@@ -251,17 +251,17 @@ website for NG Grill.
 Alright, here is our shell. As you can see, it is simply a list of links to each
 of the micro frontends. If I click Locations, you can see the locations micro
 frontend loads. If I click Menu, the menu micro frontend loads. From there, I
-can view the breakfast, lunch, and dinner pages as well. Notice in the URl bar
+can view the breakfast, lunch, and dinner pages as well. Notice in the URL bar
 here, everything after menu is owned by this micro frontend. It has complete
-control from this poin tand can have as many routes and nested children as it
+control from this point and can have as many routes and nested children as it
 wants. And, of course, if I click Order, that micro frontend appears as well.
 
 Now, let's go back to the home page because I want to show you a few more
 things. You'll see here that we are loading 3 `remoteEntry.js` files, one for
-each micro frontend. Shouldn't we be lazy loading these? Well, not exactly.
-Loading these upfront is important in order to facilitate shared dependency
-negotation. Without this, we wouldn't be able to share dependencies and bundle
-sizes would grow out of control.
+each micro frontend. Now, you might be thinking, Jason, shouldn't we be lazy
+loading these? Well, not exactly. Loading these upfront is important in order to
+facilitate the shared dependency negotation. Without this, we wouldn't be able
+to share dependencies and bundle sizes would grow out of control.
 
 This could be a concern if you want to have a micro frontend architecture that
 is composed of hundreds of smaller fragments. If that is the case, I'd encourage

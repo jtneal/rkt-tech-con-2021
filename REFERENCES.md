@@ -11,3 +11,4 @@
 - https://github.com/rajasegar/awesome-micro-frontends
 - https://www.angulararchitects.io/en/aktuelles/the-microfrontend-revolution-module-federation-in-webpack-5/
 - https://nx.dev/l/a/guides/setup-mfe-with-angular
+- https://webpack.js.org/concepts/module-federation/

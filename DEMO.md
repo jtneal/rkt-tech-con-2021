@@ -30,7 +30,8 @@ order.
 ## Generate
 
 ```sh
-npx create-nx-workspace@latest --name ng-grill --preset empty --nx-cloud false && cd ng-grill
+npx create-nx-workspace@latest --name ng-grill --preset empty --nx-cloud false
+cd ng-grill
 ```
 
 We're going to start off by generating our Nx workspace. You'll see here that
@@ -110,8 +111,8 @@ npx nx generate @nrwl/angular:app order --mfe --mfeType remote --port 4203 --hos
 Last application now, this will generate our order micro frontend.
 
 ```sh
-npx nx generate @nrwl/angular:component --project menu remote-entry/breakfast \\
-npx nx generate @nrwl/angular:component --project menu remote-entry/lunch \\
+npx nx generate @nrwl/angular:component --project menu remote-entry/breakfast
+npx nx generate @nrwl/angular:component --project menu remote-entry/lunch
 npx nx generate @nrwl/angular:component --project menu remote-entry/dinner
 ```
 

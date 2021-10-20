@@ -8,6 +8,8 @@ Micro Frontend: The future is here and easier than you think.
 - [Demo](./DEMO.md)
 - [NG Grill](https://github.com/jtneal/ng-grill)
 - [References](./REFERENCES.md)
+- [@JasonNeal](https://twitter.com/JasonNeal)
+- JasonNeal@RocketMortgage.com
 
 ## Bio
 

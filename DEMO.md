@@ -117,7 +117,11 @@ npx nx generate @nrwl/angular:component --project menu remote-entry/dinner
 
 We will now generate a few components for our menu micro frontend. This will
 give us the opportunity to see a slightly more advanced micro frontend in
-action. It will include breakfast, lunch, and a dinner components.
+action. It will include breakfast, lunch, and a dinner components. You'll notice
+we're creating these within the remote-entry folder. You'll want to do that as
+well. Anything you add should be within that folder. You'll never touch your app
+module or app component, they are only useful for local development when using
+the standalone mode which I'll demo for you shortly.
 
 ## Code
 
@@ -281,7 +285,7 @@ as well.
 
 This can be helpful if you want to iterate quickly without having to load the
 entire shell. However, I highly recommend just working from within the shell to
-ensure a solid integration.
+ensure a solid end-to-end integration.
 
 While this has been a super simple example, you can use a micro frontend
 architecture for even the most complex of applications. We started our micro

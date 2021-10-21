@@ -295,5 +295,7 @@ transitioned to the custom element or web component approach. This year, we
 migrated to using Module Federation and we're very happy with it and plan to
 stick with it for the foreseeable future.
 
+How about I show you our portal as a real world example? 
+
 Okay, that's all for the live demo, so let's switch back to the slides to wrap
 up with some closing thoughts.
